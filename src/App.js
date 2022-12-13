@@ -89,9 +89,9 @@ function App() {
               return <Card data={e} key={i}/>;
             })} */}
 
-            {plans.map((e, i) => {
-              return <Card data={e} key={i} />;
-            })}
+            {plans.map((e, i) => (
+              <Card data={e} key={i} />
+            ))}
           </div>
         </div>
       </section>
